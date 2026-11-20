@@ -1,6 +1,6 @@
 # Retail Sales Performance Dashboard (Jan-Jun 2024)
 
-End-to-end sales analysis for a 3-branch retail business, built with *Python (Pandas), **Excel* and *Power BI*.
+End-to-end sales analysis for a 3-branch retail business, built with Python (Pandas), Excel and Power BI.
 
 > Note: this is a practice dataset created to simulate a real client project.
 
