@@ -42,10 +42,26 @@ End-to-end sales analysis for a 3-branch retail business, built with Python (Pan
 | Sales1_clean.xlsx | Cleaned data |
 | Sales1_Dashboard.pbix | Power BI dashboard |
 | dashboard.png | Dashboard screenshot |
+| analysis.sql | SQL analysis (MySQL) |
 
 ## What I Learned
 - Cleaning decisions must be documented
 - Dashboard figures should always be checked against the source analysis
 - Each chart should answer one business question
+
+
+## SQL Analysis
+
+The same cleaned dataset (500 orders, Jan-Jun 2024) was loaded into MySQL and analysed with SQL. Results match the Pandas and Power BI totals (total sales: 13,216,800).
+
+*Queries* (see analysis.sql): sales by branch, product and month, average order value, top product per branch, and top 5 largest orders.
+
+*Key findings*
+- Dar es Salaam is the top branch (4,877,300 in sales).
+- Mafuta is the best-selling product by revenue and leads in all three branches.
+- January and May are the strongest months; June is the weakest.
+- Average order value: 26,433.60.
+
+Uchambuzi huu pia umefanywa kwa SQL ili kuthibitisha matokeo ya Pandas na Power BI.
 
 *Author:* SIRLIM-SMS
